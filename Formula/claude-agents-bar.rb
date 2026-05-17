@@ -3,12 +3,10 @@ class ClaudeAgentsBar < Formula
   homepage "https://github.com/alexey-krylov/ClaudeAgentsBar"
   license "MIT"
 
-  # Private-repo flow: clone via SSH using the user's keys. Uses the
-  # URI-form (ssh://) rather than the SCP-style (git@host:path) because
-  # Homebrew runs the URL through Ruby's URI parser, which rejects SCP
-  # form. Switch to `url`/`sha256` once the source repo is public —
-  # both can coexist.
-  head "ssh://git@github.com/alexey-krylov/ClaudeAgentsBar.git", branch: "main"
+  url "https://github.com/alexey-krylov/ClaudeAgentsBar/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "16ac82104aa82c1a0eca26121792734002fd78230c99a22b267ee7d56ad45abb"
+
+  head "https://github.com/alexey-krylov/ClaudeAgentsBar.git", branch: "main"
 
   depends_on "jq"
   depends_on :macos
