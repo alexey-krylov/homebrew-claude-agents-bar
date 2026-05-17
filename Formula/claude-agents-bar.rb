@@ -15,7 +15,7 @@ class ClaudeAgentsBar < Formula
     # Bundle the plugin, its hook, helper scripts, locales and example
     # config under libexec/. Then expose the single CLI entrypoint.
     libexec.install "claude-agents.5s.py", "config.example.json",
-                    "hooks", "bin", "locales", "LICENSE"
+                    "claude_agents_bar", "hooks", "bin", "locales", "LICENSE"
     bin.install_symlink libexec/"bin/claude-agents-bar"
   end
 
