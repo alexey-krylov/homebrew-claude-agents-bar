@@ -4,7 +4,7 @@ class ClaudeAgentsBar < Formula
   license "MIT"
 
   url "https://github.com/alexey-krylov/ClaudeAgentsBar/archive/refs/tags/v1.1.1.tar.gz"
-  sha256 "8168c61459cbb5cc85bae96bf68e3352a512c11f358abfff7b147626819209da"
+  sha256 "4a48f4407d8c65716be453418a6453ef2e29d267c2dc6908a0efb5d149b10bf8"
 
   head "https://github.com/alexey-krylov/ClaudeAgentsBar.git", branch: "main"
 
