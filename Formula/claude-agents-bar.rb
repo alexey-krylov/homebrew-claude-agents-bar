@@ -3,8 +3,8 @@ class ClaudeAgentsBar < Formula
   homepage "https://github.com/alexey-krylov/ClaudeAgentsBar"
   license "MIT"
 
-  url "https://github.com/alexey-krylov/ClaudeAgentsBar/archive/refs/tags/v1.4.0.tar.gz"
-  sha256 "992a3eed745261dea1adf5cead337c1a989868e5319629fa0b6c94a35f431ce8"
+  url "https://github.com/alexey-krylov/ClaudeAgentsBar/archive/refs/tags/v1.4.1.tar.gz"
+  sha256 "3907cc52f9430f2a7ccb65d3151c02b2c6516c8fe8791e0a207b7ba6e43c56de"
 
   head "https://github.com/alexey-krylov/ClaudeAgentsBar.git", branch: "main"
 
@@ -41,7 +41,7 @@ class ClaudeAgentsBar < Formula
   end
 
   test do
-    assert_match "claude-agents-bar 1.4.0",
+    assert_match "claude-agents-bar 1.4.1",
                  shell_output("#{bin}/claude-agents-bar version")
   end
 end
