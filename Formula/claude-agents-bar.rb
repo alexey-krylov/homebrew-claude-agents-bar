@@ -3,8 +3,8 @@ class ClaudeAgentsBar < Formula
   homepage "https://github.com/alexey-krylov/ClaudeAgentsBar"
   license "MIT"
 
-  url "https://github.com/alexey-krylov/ClaudeAgentsBar/archive/refs/tags/v1.6.3.tar.gz"
-  sha256 "6a754d5c9f840451d52d675e92fc0bcbb936fedb8af435ba3a043f36a267d1b8"
+  url "https://github.com/alexey-krylov/ClaudeAgentsBar/archive/refs/tags/v1.6.4.tar.gz"
+  sha256 "81bbbbb3e230d93b2875994bab21761e83836705a18b9cc74e8bb27d345a1a88"
 
   head "https://github.com/alexey-krylov/ClaudeAgentsBar.git", branch: "main"
 
