@@ -41,7 +41,7 @@ class ClaudeAgentsBar < Formula
   end
 
   test do
-    assert_match "claude-agents-bar 1.6.3",
+    assert_match "claude-agents-bar #{version}",
                  shell_output("#{bin}/claude-agents-bar version")
   end
 end
